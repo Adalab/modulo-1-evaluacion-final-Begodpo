@@ -14,58 +14,12 @@
   </head>
 
   <body>
-    <header class="hero">
-      <img class="hero__img" src="#" alt="City image" />
-      <img class="hero__img" src="#" alt="Icon menu" />
-      <h1>anonymous proxy</h1>
-      <p>In hac habitasse platea dictumst.</p>
-      <img src="#" alt="Icon arrow" />
-    </header>
+    <include src="./partials/header.html"></include>
     <main>
-      <section>
-        <p>Insomnia Tips</p>
-        <h2>Looking Through A Window</h2>
-        <p>
-          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
-          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
-        </p>
-        <button>Go</button>
-      </section>
-      <section class="reasons">
-        <h2>3 reasons to purchase</h2>
-
-        <article class="reasons__one">
-          <h3>Ut sed metus</h3>
-          <p>Lorem ipsum dolor sit amet, consecteur.</p>
-        </article>
-        <article class="reasons__two">
-          <h3>Curabitur ac erat</h3>
-          <p>Mauris mattis urna quis lorem molestie.</p>
-        </article>
-        <article class="reasons__three">
-          <h3>Ut sed metus</h3>
-          <p>Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-        <button>More reasons</button>
-      </section>
+      <include src="./partials/tips.html"></include>
+      <include src="./partials/reasons.html"></include>
     </main>
-    <footer>
-      <nav>
-        <li>articles</li>
-        <li>books</li>
-        <li>events</li>
-        <li>reason</li>
-        <li>tips</li>
-      </nav>
-      <nav>
-        <li>twitter</li>
-        <li>instagram</li>
-        <li>mastodon.social</li>
-      </nav>
-      <p>&copy; 2021</p>
-      <p>
-        we <span><img src="#" alt="" /></span>components
-      </p>
-    </footer>
+
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
