@@ -16,19 +16,6 @@
       padding: 10px;
     }
   }
-  &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 45px;
-    height: 45px;
-    border-radius: 45px;
-    transform: translate(138px, 330px);
-    &--down {
-      align-items: center;
-    }
-  }
 }
 .text {
   display: flex;
@@ -46,5 +33,18 @@
   &__parag {
     font-family: $main-font;
     margin-top: 10px;
+  }
+  &__icon {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    position: relative;
+
+    &--down {
+      position: absolute;
+      top: 50%;
+      transform: translate(50%, -50%);
+    }
   }
 }
