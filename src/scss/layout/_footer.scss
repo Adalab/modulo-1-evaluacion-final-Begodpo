@@ -1,0 +1,44 @@
+.menu {
+  background-color: $background-links;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.links {
+  text-transform: uppercase;
+  font-family: $second-font;
+  line-height: 30px;
+  text-align: center;
+  &__articles {
+    list-style: none;
+    margin-top: 60px;
+  }
+  &__social {
+    list-style: none;
+    margin-top: 30px;
+  }
+}
+.copy-comp {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  line-height: 30px;
+}
+.heart {
+  color: $orange;
+}
+.arrow-content {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 45px;
+  position: relative;
+  transform: translateY(-540px);
+  &__icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+}
