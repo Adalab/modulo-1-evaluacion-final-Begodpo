@@ -32,7 +32,7 @@
   font-family: &second-font;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 45px;
+
   border: none;
   transition-duration: 0.4s;
   &:hover {
@@ -40,5 +40,20 @@
     background-color: white;
     color: $orange;
     border: $orange 2px solid;
+  }
+}
+.arrow-content {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  position: relative;
+  transform: translateY(-540px);
+  top: 45px;
+
+  &__icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
   }
 }
