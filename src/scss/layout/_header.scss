@@ -24,6 +24,7 @@
   transform: translateY(284px);
   color: white;
   margin: 0px 15px 0px 15px;
+
   @media (min-width: 768px) {
     transform: translateY(384px);
   }
@@ -35,6 +36,9 @@
     text-align: center;
     @media (min-width: 768px) {
       font-size: 80px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 100px;
     }
   }
   &__parag {
