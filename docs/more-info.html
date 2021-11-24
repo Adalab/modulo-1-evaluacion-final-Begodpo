@@ -11,9 +11,28 @@
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Otra página del starter kit</h1>
+      <header class="hero" id="start">
+        <div class="hero__menu-icon">
+          <a href="https://adalab.es/">
+            <img
+              src="./assets/images/ico-menu.svg"
+              alt="Icon menu"
+              class="hero__menu-icon--burguer"
+            />
+          </a>
+        </div>
+        <article class="text">
+          <h1 class="text__title">anonymous proxy</h1>
+          <p class="text__parag">In hac habitasse platea dictumst.</p>
+          <div class="text__icon">
+            <a href="#three-reasons"
+              ><img
+                src="./assets/images/ico-scroll-down.svg"
+                alt="Icon scroll"
+                class="text__icon--down"
+            /></a>
+          </div>
+        </article>
       </header>
 
       <main>
@@ -23,12 +42,38 @@
           que te ha traído hasta aquí.
         </p>
       </main>
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+      <footer class="menu">
+        <nav class="links">
+          <ul class="links__articles">
+            <a href="https://adalab.es/">
+              <li class="links__articles--go">articles</li>
+              <li class="links__articles--go">books</li>
+              <li class="links__articles--go">events</li>
+              <li class="links__articles--go">reason</li>
+              <li class="links__articles--go">tips</li>
+            </a>
+          </ul>
+        </nav>
+        <nav class="links">
+          <ul class="links__social">
+            <a href="https://adalab.es/">
+              <li class="links__social--go">twitter</li>
+              <li class="links__social--go">instagram</li>
+              <li class="links__social--go">mastodon.social</li>
+            </a>
+          </ul>
+        </nav>
+        <article class="copy-comp">
+          <p>&copy; 2021</p>
+          <p>we <span class="heart">&hearts;</span> components</p>
+        </article>
+        <div class="arrow-content">
+          <a href="#start"
+            ><img
+              src="./assets/images/ico-arrow.svg"
+              alt="Icon arrows"
+              class="arrow-content__icon"
+          /></a>
       </footer>
 
     </div>
