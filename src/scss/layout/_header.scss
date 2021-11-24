@@ -24,11 +24,12 @@
   transform: translateY(284px);
   color: white;
   margin: 0px 15px 0px 15px;
-
   @media (min-width: 768px) {
     transform: translateY(384px);
   }
-
+  @media (min-width: 1200px) {
+    transform: translateY(370px);
+  }
   &__title {
     text-transform: uppercase;
     font-family: $main-font;
@@ -55,6 +56,9 @@
     border-radius: 25px;
     margin-top: 45px;
     position: relative;
+    @media (min-width: 1200px) {
+      margin-top: 30px;
+    }
     &--down {
       position: absolute;
       top: 50%;
