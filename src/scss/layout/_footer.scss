@@ -13,10 +13,18 @@
   &__articles {
     list-style: none;
     margin-top: 60px;
+    &--go {
+      text-decoration: none;
+      color: white;
+    }
   }
   &__social {
     list-style: none;
     margin-top: 30px;
+    &--go {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 .copy-comp {
