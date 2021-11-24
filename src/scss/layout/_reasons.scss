@@ -63,6 +63,7 @@
   font-weight: bold;
   border: none;
   transition-duration: 0.4s;
+  margin-bottom: 20px;
 
   @media (min-width: 768px) {
     width: 210px;
@@ -83,9 +84,14 @@
   height: 45px;
   border-radius: 25px;
   position: relative;
-  transform: translateY(-540px);
-  top: 45px;
-
+  top: 22px;
+  left: 44%;
+  @media (min-width: 768px) {
+    left: 47%;
+  }
+  @media (min-width: 1200px) {
+    left: 50%;
+  }
   &__icon {
     position: absolute;
     top: 25%;

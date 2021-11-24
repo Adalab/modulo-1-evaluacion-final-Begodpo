@@ -62,18 +62,3 @@
 .heart {
   color: $orange;
 }
-.arrow-content {
-  background-color: white;
-  width: 45px;
-  height: 45px;
-  border-radius: 25px;
-  margin-top: 45px;
-  position: relative;
-  /*transform: translateY(-540px);*/
-
-  &__icon {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-  }
-}
