@@ -8,21 +8,41 @@
     margin-left: 39px;
     margin-right: 39px;
   }
+  @media (min-width: 1200px) {
+    margin-left: 275px;
+    margin-right: 275px;
+  }
   &__insomnia {
     font-size: 14px;
     color: #8ccbea;
     margin-top: 30px;
     height: 30px;
+    @media (min-width: 768px) {
+      margin-top: 30px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 16px;
+      margin-top: 60px;
+    }
   }
   &__title {
     font-size: 24px;
     text-transform: capitalize;
+    @media (min-width: 1200px) {
+      font-size: 32px;
+    }
   }
   &__text {
     font-size: 18px;
     color: #4a4a4a;
     line-height: 30px;
     margin-top: 15px;
+    @media (min-width: 768px) {
+      margin-top: 30px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 20px;
+    }
   }
   &__button {
     height: 45px;
@@ -36,6 +56,13 @@
     margin-top: 30px;
     margin-bottom: 45px;
     transition-duration: 0.4s;
+    @media (min-width: 768px) {
+      width: 91px;
+      margin-bottom: 60px;
+    }
+    @media (min-width: 1200px) {
+      width: 160px;
+    }
     &:hover {
       cursor: pointer;
       background-color: $orange;
