@@ -1,0 +1,22 @@
+.herodos {
+  background-color: $orange;
+}
+.anonymous {
+  color: white;
+  text-align: center;
+  @media (min-width: 768px) {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: $background-links;
+  }
+  &__text {
+    &--title {
+      text-transform: uppercase;
+    }
+    &--link {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
