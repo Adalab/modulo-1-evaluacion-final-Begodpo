@@ -40,9 +40,14 @@
   &__social {
     list-style: none;
     margin-top: 30px;
+    color: white;
     @media (min-width: 768px) {
       margin-top: 45px;
       text-align: left;
+    }
+    &--go {
+      text-decoration: none;
+      color: white;
     }
   }
   li a {
