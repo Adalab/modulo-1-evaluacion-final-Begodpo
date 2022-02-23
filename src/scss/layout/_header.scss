@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
+
   &__menu-icon {
     position: fixed;
     display: inline-block;
@@ -25,6 +26,7 @@
   align-items: center;
   color: white;
   margin: 0px 15px 0px 15px;
+
   @media (min-width: 768px) {
     margin: 0px 40px 0px 40px;
   }
@@ -36,6 +38,7 @@
     font-family: $main-font;
     font-size: 42px;
     text-align: center;
+
     @media (min-width: 768px) {
       font-size: 80px;
     }
@@ -45,6 +48,7 @@
     }
   }
   &__parag {
+    text-align: center;
     font-family: $main-font;
     margin-top: 10px;
     @media (min-width: 768px) {
