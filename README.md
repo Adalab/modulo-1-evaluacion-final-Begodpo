@@ -1,6 +1,6 @@
-# Módulo 1 - Evaluación final
+# Anonymous Proxy
 
-## Begoña del Pozo
+## Primer ejercicio de evaluación en Adalab
 
 ### Enunciado
 
@@ -13,6 +13,7 @@ puntos:
 - Resolver algunas interacciones usando transiciones.
 
 Realizar la maquetación sobre un diseño dado:
+![Anoymous Proxy image](src/images/anonymous.png)
 
 1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la
    pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la
