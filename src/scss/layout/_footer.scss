@@ -22,6 +22,7 @@
   &__articles {
     list-style: none;
     margin-top: 60px;
+
     @media (min-width: 768px) {
       margin-top: 45px;
       margin-bottom: 45px;
@@ -43,10 +44,10 @@
       margin-top: 45px;
       text-align: left;
     }
-    &--go {
-      text-decoration: none;
-      color: white;
-    }
+  }
+  li a {
+    text-decoration: none;
+    color: white;
   }
 }
 .copy-comp {
